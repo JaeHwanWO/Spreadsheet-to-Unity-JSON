@@ -1,0 +1,1299 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/nexlice/Spreadsheet-to-Unity-JSON/demo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51038
+Successfully changed project path to: /Users/nexlice/Spreadsheet-to-Unity-JSON/demo
+/Users/nexlice/Spreadsheet-to-Unity-JSON/demo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nexlice/Spreadsheet-to-Unity-JSON/demo/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-20 11:40:27.660 Unity[4192:91852] (null) preferred device: Apple M1 (high power)
+2021-05-20 11:40:27.660 Unity[4192:91852] Metal devices available: 1
+2021-05-20 11:40:27.660 Unity[4192:91852] 0: Apple M1 (high power)
+2021-05-20 11:40:27.661 Unity[4192:91852] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000344 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 24.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.676 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.560 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.251417 ms (FindLiveObjects: 0.124459 ms CreateObjectMapping: 0.025375 ms MarkObjects: 1.042209 ms  DeleteObjects: 0.058292 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/New Import Setting.asset
+  artifactKey: Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Import Setting.asset using Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: 'b0fd4feac65f0c7302b15dd88d06a524') in 0.423680 seconds
+  Import took 0.425537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/New Import Setting.asset
+  artifactKey: Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Import Setting.asset using Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: 'b0fd4feac65f0c7302b15dd88d06a524') in 0.007829 seconds
+  Import took 0.009302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.918863 seconds.
+  path: Assets/New Import Setting.asset
+  artifactKey: Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Import Setting.asset using Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: '5f0f30b49b3652da02c75115ca15e63a') in 0.007270 seconds
+  Import took 0.009274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.500753 seconds.
+  path: Assets/New Import Setting.asset
+  artifactKey: Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Import Setting.asset using Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: '5426b802a9ff68d405e9b70bc5508e07') in 0.008375 seconds
+  Import took 0.011019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000974 seconds.
+  path: Assets/New Import Setting.asset
+  artifactKey: Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Import Setting.asset using Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: '5426b802a9ff68d405e9b70bc5508e07') in 0.008040 seconds
+  Import took 0.009877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.667790 seconds.
+  path: Assets/New Import Setting.asset
+  artifactKey: Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Import Setting.asset using Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: '82151632c7ced00bbb5b7f250d1cd4ed') in 0.008435 seconds
+  Import took 0.010720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001069 seconds.
+  path: Assets/New Import Setting.asset
+  artifactKey: Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Import Setting.asset using Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: '82151632c7ced00bbb5b7f250d1cd4ed') in 0.007176 seconds
+  Import took 0.009216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.929386 seconds.
+  path: Assets/Scripts/Runtime
+  artifactKey: Guid(8e651a9aa5aba408db1403bdbdbc4f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime using Guid(8e651a9aa5aba408db1403bdbdbc4f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4526060066102f6e776bd7998c8f959') in 0.001151 seconds
+  Import took 0.002709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.491569 seconds.
+  path: Assets/Scripts/Runtime/New Import Setting.asset
+  artifactKey: Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/New Import Setting.asset using Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: 'ee8be9ef659dfe222b3542e91a23f1ee') in 0.007439 seconds
+  Import took 0.009260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Scripts/Runtime/New Import Setting.asset
+  artifactKey: Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/New Import Setting.asset using Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: 'ee8be9ef659dfe222b3542e91a23f1ee') in 0.006776 seconds
+  Import took 0.008403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.442447 seconds.
+  path: Assets/Scripts/Runtime/anyData.cs
+  artifactKey: Guid(e61d51a0f2c8747059bd6d89de2da5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/anyData.cs using Guid(e61d51a0f2c8747059bd6d89de2da5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd7e1020bb5a9872d69fc2d9fe9f2ab') in 0.175162 seconds
+  Import took 0.176764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.142803 seconds.
+  path: Assets/Scripts/Runtime/any.cs
+  artifactKey: Guid(6ec22e6f1b8dc4d01ac80e0105a3a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/any.cs using Guid(6ec22e6f1b8dc4d01ac80e0105a3a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c050ea6131695c98ab141d39dcb20a') in 0.001285 seconds
+  Import took 0.003733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.279527 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset
+  artifactKey: Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset using Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4929a2538cad6dad5fa84a1830ea1fc') in 0.006186 seconds
+  Import took 0.010980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.779925 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset
+  artifactKey: Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset using Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affde2c1dbffa16af6aef2652c991210') in 0.002061 seconds
+  Import took 0.003820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004555 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset
+  artifactKey: Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset using Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affde2c1dbffa16af6aef2652c991210') in 0.001987 seconds
+  Import took 0.003735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.662406 seconds.
+  path: Assets/Scripts/Runtime/New Import Setting.asset
+  artifactKey: Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/New Import Setting.asset using Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: '02c0b33002e2b7df9a4d8aabce5a3c6e') in 0.010336 seconds
+  Import took 0.013510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.333561 seconds.
+  path: Assets/Prefabs/SubUI_Tower.prefab
+  artifactKey: Guid(0f10db9059f72514788d73081e9d6bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SubUI_Tower.prefab using Guid(0f10db9059f72514788d73081e9d6bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8756a4a752bfb37a1e1589729b2b5eb2') in 0.235499 seconds
+  Import took 0.238084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.784337 seconds.
+  path: Assets/Scripts/Editor/anyEditor.cs
+  artifactKey: Guid(6a7a41fd0b56845cf854fe63246a8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/anyEditor.cs using Guid(6a7a41fd0b56845cf854fe63246a8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535ef56c1b493daab9cc6238af3b48a5') in 0.004964 seconds
+  Import took 0.007631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000930 seconds.
+  path: Assets/Scripts/Editor/anyEditor.cs
+  artifactKey: Guid(6a7a41fd0b56845cf854fe63246a8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/anyEditor.cs using Guid(6a7a41fd0b56845cf854fe63246a8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535ef56c1b493daab9cc6238af3b48a5') in 0.002501 seconds
+  Import took 0.004728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.537366 seconds.
+  path: Assets/Scripts/Editor/anyAssetCreator.cs
+  artifactKey: Guid(84466a2d4bedc486482791255cb047c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/anyAssetCreator.cs using Guid(84466a2d4bedc486482791255cb047c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e88cab0028cf97069080b06e939b1e') in 0.003067 seconds
+  Import took 0.005585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001546 seconds.
+  path: Assets/Scripts/Editor/anyAssetCreator.cs
+  artifactKey: Guid(84466a2d4bedc486482791255cb047c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/anyAssetCreator.cs using Guid(84466a2d4bedc486482791255cb047c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e88cab0028cf97069080b06e939b1e') in 0.002500 seconds
+  Import took 0.004559 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.538 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1704.
+Total: 1.081084 ms (FindLiveObjects: 0.087333 ms CreateObjectMapping: 0.025125 ms MarkObjects: 0.956250 ms  DeleteObjects: 0.011625 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.408440 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset
+  artifactKey: Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset using Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1216611b5b94d983ad78050b0509260c') in 0.019615 seconds
+  Import took 0.021307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009467 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset
+  artifactKey: Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google Data Settings.asset using Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1216611b5b94d983ad78050b0509260c') in 0.003207 seconds
+  Import took 0.004946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.874609 seconds.
+  path: Packages/com.knz.ugson/package.json
+  artifactKey: Guid(853d8dbc9d7e20e41967a4c8d8b89a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/package.json using Guid(853d8dbc9d7e20e41967a4c8d8b89a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317cc9810eb8d0ef57b79bf8c07e0083') in 0.748037 seconds
+  Import took 0.750440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.072937 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/BaseGoogleEditor.cs
+  artifactKey: Guid(7c777716001d4344fb8f86ecb4a409f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/BaseGoogleEditor.cs using Guid(7c777716001d4344fb8f86ecb4a409f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679e132ae24d7b10f6d022ba433da8f4') in 0.001831 seconds
+  Import took 0.003780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011751 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/BaseGoogleEditor.cs
+  artifactKey: Guid(7c777716001d4344fb8f86ecb4a409f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/BaseGoogleEditor.cs using Guid(7c777716001d4344fb8f86ecb4a409f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679e132ae24d7b10f6d022ba433da8f4') in 0.000931 seconds
+  Import took 0.002606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.000431 seconds.
+  path: Assets/Sprites/map.png
+  artifactKey: Guid(d3a8ba99c7a04da469971adb7856a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/map.png using Guid(d3a8ba99c7a04da469971adb7856a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c78dcc7821ad47d929d6edf10dc3268') in 0.566482 seconds
+  Import took 0.568666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Tilemaps/A.asset
+  artifactKey: Guid(a605dc960ef7f0642af945bc6ce10b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/A.asset using Guid(a605dc960ef7f0642af945bc6ce10b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c6bdf2ba86566c394f6d1e14a8eef4') in 0.037232 seconds
+  Import took 0.038672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Tilemaps/타일 1 - 복사본 (3).asset
+  artifactKey: Guid(f1259234df19e9d4abd48a3e513aa9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/타일 1 - 복사본 (3).asset using Guid(f1259234df19e9d4abd48a3e513aa9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f4dff1697912aad9d55d8bfa2f07fc') in 0.007143 seconds
+  Import took 0.008712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/Time.png
+  artifactKey: Guid(a14008b3559cbf44592480e6261e4eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Time.png using Guid(a14008b3559cbf44592480e6261e4eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81374e2095a8ff4774704bd69f36f822') in 0.011084 seconds
+  Import took 0.012685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Tilemaps/Square.asset
+  artifactKey: Guid(59dabb7168c124646ab18ad8afb4952f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Square.asset using Guid(59dabb7168c124646ab18ad8afb4952f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa5a261f5d336d7638582dbfff749f3') in 0.006492 seconds
+  Import took 0.007936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sprites/TimeStone.png
+  artifactKey: Guid(34794dd2f1f464a4682117728fb6983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TimeStone.png using Guid(34794dd2f1f464a4682117728fb6983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f726dfc7b74eb111e37de0afb802df2b') in 0.008668 seconds
+  Import took 0.010030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tilemaps/TilePalette.prefab
+  artifactKey: Guid(110aa94dbde38bc4a95225fb9a801cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/TilePalette.prefab using Guid(110aa94dbde38bc4a95225fb9a801cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f0bdf91f72a5250fa32d0794dc253e') in 0.016030 seconds
+  Import took 0.017437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/Time_Bar_UI.png
+  artifactKey: Guid(5c8ea8399bda8a047b64497adfe8a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Time_Bar_UI.png using Guid(5c8ea8399bda8a047b64497adfe8a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6b29fc6d753e491c7ad9929d9f851a') in 0.007960 seconds
+  Import took 0.009422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Tilemaps/타일 1 - 복사본.asset
+  artifactKey: Guid(9ccd7eca18e24ce4faa0f33c8eeaf56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/타일 1 - 복사본.asset using Guid(9ccd7eca18e24ce4faa0f33c8eeaf56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a929b14684fdf821bccf71fdec678be4') in 0.006090 seconds
+  Import took 0.007553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Tilemaps/타일 1 - 복사본 (5).asset
+  artifactKey: Guid(3a219e2c91393ce4c95be76a6e35178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/타일 1 - 복사본 (5).asset using Guid(3a219e2c91393ce4c95be76a6e35178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5b57f641658a6b05437123dda39c75') in 0.006077 seconds
+  Import took 0.007467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Tilemaps/타일 1 - 복사본 (2).asset
+  artifactKey: Guid(38272817e94fdbd43929bee588dfed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/타일 1 - 복사본 (2).asset using Guid(38272817e94fdbd43929bee588dfed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9d6a19fd0789f473749f652ef94ba2') in 0.005927 seconds
+  Import took 0.007260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Tilemaps/타일 1 - 복사본 (4).asset
+  artifactKey: Guid(dc037cf4d1081a3468355dad845f9629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/타일 1 - 복사본 (4).asset using Guid(dc037cf4d1081a3468355dad845f9629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e2baea414dc3a713a4d58ac03ca04a') in 0.006155 seconds
+  Import took 0.007687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Tilemaps/B.asset
+  artifactKey: Guid(e59e6adb6153b284e9ef46b1638f815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/B.asset using Guid(e59e6adb6153b284e9ef46b1638f815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4688013da1b4e67734d4251b1c559e9') in 0.006254 seconds
+  Import took 0.007772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Tilemaps/타일 1.asset
+  artifactKey: Guid(ecea93a695aa1db42b623c2e89650d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/타일 1.asset using Guid(ecea93a695aa1db42b623c2e89650d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca256ae974a34e33872b3bd634be2ba') in 0.006162 seconds
+  Import took 0.007655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sprites/Square.png
+  artifactKey: Guid(7035d734d63d0b34c92fe65cb5a2da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Square.png using Guid(7035d734d63d0b34c92fe65cb5a2da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b080cbad492816b5087ebec1c12c227') in 0.007757 seconds
+  Import took 0.009241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/UI_Shop.png
+  artifactKey: Guid(bac2964c88490b542851a1ba3e2f852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI_Shop.png using Guid(bac2964c88490b542851a1ba3e2f852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103afdbec2242794d336527e95225c83') in 0.008743 seconds
+  Import took 0.010186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.664675 seconds.
+  path: Packages/com.knz.ugson/Doc
+  artifactKey: Guid(2316e22f5fdc1db4f8e2dbcaf3b2c035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Doc using Guid(2316e22f5fdc1db4f8e2dbcaf3b2c035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8fd2b6c4a139413f94f59c3efdef8c') in 0.000961 seconds
+  Import took 0.002953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Packages/com.knz.ugson/Doc
+  artifactKey: Guid(2316e22f5fdc1db4f8e2dbcaf3b2c035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Doc using Guid(2316e22f5fdc1db4f8e2dbcaf3b2c035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8fd2b6c4a139413f94f59c3efdef8c') in 0.000464 seconds
+  Import took 0.001891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002789 seconds.
+  path: Packages/com.knz.ugson/Doc/Unity-Quicksheet.pdf
+  artifactKey: Guid(5e0586483ff811148825cfc35ac00e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Doc/Unity-Quicksheet.pdf using Guid(5e0586483ff811148825cfc35ac00e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5942926f8c65b298a3c744a050429e4c') in 0.451497 seconds
+  Import took 0.453854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 307.523237 seconds.
+  path: Packages/com.knz.ugson/Editor/QuicksheetEditor.asmdef
+  artifactKey: Guid(4155262d2078e464c8cd45a2257ca000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Editor/QuicksheetEditor.asmdef using Guid(4155262d2078e464c8cd45a2257ca000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a736cbe785d4c9a96ec88a365a01f55') in 0.107573 seconds
+  Import took 0.109962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.149829 seconds.
+  path: Packages/com.knz.ugson/Runtime/Quicksheet.asmdef
+  artifactKey: Guid(1839e5d7bfb30a0469f1abce1b8cd268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Runtime/Quicksheet.asmdef using Guid(1839e5d7bfb30a0469f1abce1b8cd268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b23b6ebbe19b142d1b521680691c280') in 0.003429 seconds
+  Import took 0.006417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.995813 seconds.
+  path: Assets/New Import Setting.asset
+  artifactKey: Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Import Setting.asset using Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: '4ed640b368abf43c8e3d3c9598609310') in 0.054519 seconds
+  Import took 0.056387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.786665 seconds.
+  path: Assets/Scripts/Runtime/New Import Setting.asset
+  artifactKey: Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/New Import Setting.asset using Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: '999b2dafcde3b7d11a3ec40ed2a1425c') in 0.014212 seconds
+  Import took 0.016850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.964323 seconds.
+  path: Assets/Scripts/Runtime/any.cs
+  artifactKey: Guid(6ec22e6f1b8dc4d01ac80e0105a3a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/any.cs using Guid(6ec22e6f1b8dc4d01ac80e0105a3a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cb4da2045b58f45b16f8152ce42b25') in 0.003344 seconds
+  Import took 0.005274 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.569 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 150.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1722.
+Total: 1.101708 ms (FindLiveObjects: 0.104875 ms CreateObjectMapping: 0.025958 ms MarkObjects: 0.955750 ms  DeleteObjects: 0.014291 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.726767 seconds.
+  path: Assets/Scripts/Runtime/anyData.cs
+  artifactKey: Guid(e61d51a0f2c8747059bd6d89de2da5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/anyData.cs using Guid(e61d51a0f2c8747059bd6d89de2da5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adca2036137499f8b8b473fb97b0f7e') in 0.005424 seconds
+  Import took 0.007133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/Scripts/Runtime/anyData.cs
+  artifactKey: Guid(e61d51a0f2c8747059bd6d89de2da5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/anyData.cs using Guid(e61d51a0f2c8747059bd6d89de2da5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adca2036137499f8b8b473fb97b0f7e') in 0.001887 seconds
+  Import took 0.003336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.806544 seconds.
+  path: Assets/New Import Setting.asset
+  artifactKey: Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Import Setting.asset using Guid(53b9d2b20c01643ed929050ed15dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: '048529e18ab2464719d485cbb4dea89d') in 0.074102 seconds
+  Import took 0.076437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.816342 seconds.
+  path: Assets/Resources/Prefabs/BulletPrefab.prefab
+  artifactKey: Guid(790acca8faa1181409c9002e85b95c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BulletPrefab.prefab using Guid(790acca8faa1181409c9002e85b95c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4422f51f2dd7003b875c73427d3f8e55') in 0.147494 seconds
+  Import took 0.150265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Resources/Prefabs/MonsterObject.prefab
+  artifactKey: Guid(56465ec4439c9404a9a7e884c16a7b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/MonsterObject.prefab using Guid(56465ec4439c9404a9a7e884c16a7b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573af8238875f00fb7ca50e2bb1d4e4a') in 0.021753 seconds
+  Import took 0.023396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Resources/Prefabs/TowerPrefab.prefab
+  artifactKey: Guid(629fa021827a35c4e94b55fe3b4e0cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TowerPrefab.prefab using Guid(629fa021827a35c4e94b55fe3b4e0cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30818edab9e6ccfa34ed864dd8cf6ad0') in 0.018130 seconds
+  Import took 0.019818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Resources/Prefabs/MonsterObject.prefab
+  artifactKey: Guid(56465ec4439c9404a9a7e884c16a7b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/MonsterObject.prefab using Guid(56465ec4439c9404a9a7e884c16a7b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573af8238875f00fb7ca50e2bb1d4e4a') in 0.003384 seconds
+  Import took 0.004766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.417219 seconds.
+  path: Assets/Scripts/Data/MonsterData.cs
+  artifactKey: Guid(6945ae470936cc847b08b2f0f2f6f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/MonsterData.cs using Guid(6945ae470936cc847b08b2f0f2f6f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e2a2f46fe22a926a4ded67cef6138e') in 0.002599 seconds
+  Import took 0.004820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008445 seconds.
+  path: Assets/Scripts/Data/MonsterData.cs
+  artifactKey: Guid(6945ae470936cc847b08b2f0f2f6f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/MonsterData.cs using Guid(6945ae470936cc847b08b2f0f2f6f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e2a2f46fe22a926a4ded67cef6138e') in 0.002000 seconds
+  Import took 0.004053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.192015 seconds.
+  path: Assets/Scripts/Data/MonsterDatabase.cs
+  artifactKey: Guid(a3da6a81766045f46a46cf9ff8d9a305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/MonsterDatabase.cs using Guid(a3da6a81766045f46a46cf9ff8d9a305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bd8d4116c679902e724e5277e3942e') in 0.003294 seconds
+  Import took 0.006205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/Scripts/Data/MonsterDatabase.cs
+  artifactKey: Guid(a3da6a81766045f46a46cf9ff8d9a305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/MonsterDatabase.cs using Guid(a3da6a81766045f46a46cf9ff8d9a305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bd8d4116c679902e724e5277e3942e') in 0.002828 seconds
+  Import took 0.005135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.070202 seconds.
+  path: Assets/Scripts/Data/MonsterManager.cs
+  artifactKey: Guid(2a7894e3a84ac7f429f5559154dd0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/MonsterManager.cs using Guid(2a7894e3a84ac7f429f5559154dd0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16df29efc804961f81ec9c6b2a9fda7f') in 0.004190 seconds
+  Import took 0.007198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005372 seconds.
+  path: Assets/Scripts/Data/MonsterManager.cs
+  artifactKey: Guid(2a7894e3a84ac7f429f5559154dd0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/MonsterManager.cs using Guid(2a7894e3a84ac7f429f5559154dd0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16df29efc804961f81ec9c6b2a9fda7f') in 0.002637 seconds
+  Import took 0.004928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.492148 seconds.
+  path: Assets/Scripts/Data/TowerData.cs
+  artifactKey: Guid(212542f182e8ac44a9d1cf2f2d020d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/TowerData.cs using Guid(212542f182e8ac44a9d1cf2f2d020d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61b0977942227f030b070eb689b2a11') in 0.003030 seconds
+  Import took 0.005924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006060 seconds.
+  path: Assets/Scripts/Data/TowerData.cs
+  artifactKey: Guid(212542f182e8ac44a9d1cf2f2d020d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/TowerData.cs using Guid(212542f182e8ac44a9d1cf2f2d020d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61b0977942227f030b070eb689b2a11') in 0.002366 seconds
+  Import took 0.004438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.352109 seconds.
+  path: Assets/Scripts/Data/WaveBuilder.cs
+  artifactKey: Guid(7506d2a42c879a34c8c160efbf6700ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/WaveBuilder.cs using Guid(7506d2a42c879a34c8c160efbf6700ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa6bd797ed9261f15435027ce48f65f') in 0.003508 seconds
+  Import took 0.006637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001813 seconds.
+  path: Assets/Scripts/Data/WaveBuilder.cs
+  artifactKey: Guid(7506d2a42c879a34c8c160efbf6700ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/WaveBuilder.cs using Guid(7506d2a42c879a34c8c160efbf6700ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa6bd797ed9261f15435027ce48f65f') in 0.003308 seconds
+  Import took 0.005544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.403361 seconds.
+  path: Assets/Scripts/Editor/anyAssetCreator.cs
+  artifactKey: Guid(84466a2d4bedc486482791255cb047c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/anyAssetCreator.cs using Guid(84466a2d4bedc486482791255cb047c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e96559aea3914c12a46eafeb92892b') in 0.003019 seconds
+  Import took 0.005696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.300180 seconds.
+  path: Assets/Scripts/Editor/New any.asset
+  artifactKey: Guid(ff86e7696b0d74b08b8e2acd63e8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/New any.asset using Guid(ff86e7696b0d74b08b8e2acd63e8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23d2d35b4ab4ec7f410be749452649a') in 0.004629 seconds
+  Import took 0.006754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009427 seconds.
+  path: Assets/Scripts/Editor/New any.asset
+  artifactKey: Guid(ff86e7696b0d74b08b8e2acd63e8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/New any.asset using Guid(ff86e7696b0d74b08b8e2acd63e8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23d2d35b4ab4ec7f410be749452649a') in 0.002890 seconds
+  Import took 0.004563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.893978 seconds.
+  path: Assets/Scripts/Editor
+  artifactKey: Guid(206ea2aedb6a3ba458061972ac0769a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor using Guid(206ea2aedb6a3ba458061972ac0769a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05895a6dc3b7f7b459c2d419403ec82c') in 0.001193 seconds
+  Import took 0.003962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000863 seconds.
+  path: Assets/Scripts/Editor
+  artifactKey: Guid(206ea2aedb6a3ba458061972ac0769a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor using Guid(206ea2aedb6a3ba458061972ac0769a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05895a6dc3b7f7b459c2d419403ec82c') in 0.000811 seconds
+  Import took 0.002838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.593820 seconds.
+  path: Assets/Scripts/Editor/DatabaseBuilder.cs
+  artifactKey: Guid(32e007a18b1d3a241b4c33aeb035cef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/DatabaseBuilder.cs using Guid(32e007a18b1d3a241b4c33aeb035cef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb52d981712f691ee7e8279baf4fbd9') in 0.002756 seconds
+  Import took 0.005357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003101 seconds.
+  path: Assets/Scripts/Editor/DatabaseBuilder.cs
+  artifactKey: Guid(32e007a18b1d3a241b4c33aeb035cef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/DatabaseBuilder.cs using Guid(32e007a18b1d3a241b4c33aeb035cef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb52d981712f691ee7e8279baf4fbd9') in 0.002715 seconds
+  Import took 0.004801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.584874 seconds.
+  path: Assets/Scripts/Editor/anyEditor.cs
+  artifactKey: Guid(6a7a41fd0b56845cf854fe63246a8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/anyEditor.cs using Guid(6a7a41fd0b56845cf854fe63246a8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94c8b9b4eddb4a12e8361e8235d5351') in 0.002961 seconds
+  Import took 0.005644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.380163 seconds.
+  path: Assets/Scripts/Editor/New Prefab.prefab
+  artifactKey: Guid(8727035c403fd4e6f97efd173155adf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/New Prefab.prefab using Guid(8727035c403fd4e6f97efd173155adf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060bb20b94c6feb97c71c07764ead649') in 0.003853 seconds
+  Import took 0.005842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016174 seconds.
+  path: Assets/Scripts/Editor/New Prefab.prefab
+  artifactKey: Guid(8727035c403fd4e6f97efd173155adf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/New Prefab.prefab using Guid(8727035c403fd4e6f97efd173155adf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060bb20b94c6feb97c71c07764ead649') in 0.003511 seconds
+  Import took 0.005256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.636877 seconds.
+  path: Assets/Resources/Database/Wave/WaveData_0.asset
+  artifactKey: Guid(3668bf80c665f3b42a7a109d88b87c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Wave/WaveData_0.asset using Guid(3668bf80c665f3b42a7a109d88b87c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4a43838186cef58199f6613898a8c8') in 0.004604 seconds
+  Import took 0.007594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Resources/Database/Wave/WaveData_1.asset
+  artifactKey: Guid(daa1403fefc2f4046809ef013f680918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Wave/WaveData_1.asset using Guid(daa1403fefc2f4046809ef013f680918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd3e394c21e98315f3908b5b8a56846') in 0.003686 seconds
+  Import took 0.005849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Resources/Database/Wave/WaveData_3.asset
+  artifactKey: Guid(0faa9c1d9aa256a4a946fca9c5533f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Wave/WaveData_3.asset using Guid(0faa9c1d9aa256a4a946fca9c5533f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64994c8f209ae4d39def037f4edcc033') in 0.003502 seconds
+  Import took 0.005552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/Database/Wave/WaveData_2.asset
+  artifactKey: Guid(f072b538bb4027442b28cf2b6a0c9bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Wave/WaveData_2.asset using Guid(f072b538bb4027442b28cf2b6a0c9bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c97fa4336d58a3dfe9b2692b087cbbf') in 0.002825 seconds
+  Import took 0.004703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Resources/Database/Wave/WaveData_4.asset
+  artifactKey: Guid(b053b3d2d0cffc74e86d7f88cc28b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Wave/WaveData_4.asset using Guid(b053b3d2d0cffc74e86d7f88cc28b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a32acf1bbc255bca947b668f633e71c') in 0.002943 seconds
+  Import took 0.004783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Resources/Database/Wave/WaveDatabase.asset
+  artifactKey: Guid(c75769121f3329d438d076bda945a794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Wave/WaveDatabase.asset using Guid(c75769121f3329d438d076bda945a794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1a652d7c353e19b5394e86ff758d4a') in 0.002823 seconds
+  Import took 0.004734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.491749 seconds.
+  path: Assets/Scripts/Editor/New any.asset
+  artifactKey: Guid(ff86e7696b0d74b08b8e2acd63e8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/New any.asset using Guid(ff86e7696b0d74b08b8e2acd63e8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0f55b99f82e8703d046405f914e562') in 0.003665 seconds
+  Import took 0.005995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001025 seconds.
+  path: Assets/Scripts/Editor/New any.asset
+  artifactKey: Guid(ff86e7696b0d74b08b8e2acd63e8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/New any.asset using Guid(ff86e7696b0d74b08b8e2acd63e8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0f55b99f82e8703d046405f914e562') in 0.003034 seconds
+  Import took 0.005002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1208.292916 seconds.
+  path: Assets/Scripts/Runtime/New Import Setting.asset
+  artifactKey: Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Runtime/New Import Setting.asset using Guid(11728d6aea2504f418cc554c04a36bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) No instance of GoogleDataSettings is loaded. Please create a GoogleDataSettings asset file.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/Editor/Util/SingletonScriptableObject.cs:44)
+UnityQuickSheet.GoogleMachine:Awake () (at /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityQuickSheet.GoogleMachine.Awake () [0x00000] in /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36 
+
+(Filename: /Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs Line: 36)
+
+ -> (artifact id: 'f6e6321257582e5713f265da080490d7') in 0.011276 seconds
+  Import took 0.013813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.206044 seconds.
+  path: Assets/Resources/Sprites/sprite_goblin.png
+  artifactKey: Guid(c5783938157c48e4ba0df553ef35f2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/sprite_goblin.png using Guid(c5783938157c48e4ba0df553ef35f2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c167e4ce66697730c65c58c1e44d086b') in 0.078964 seconds
+  Import took 0.081696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Resources/Sprites/sprite_wood_fairy.png
+  artifactKey: Guid(76f83a036b25c964f8a9c6a0efaf967a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/sprite_wood_fairy.png using Guid(76f83a036b25c964f8a9c6a0efaf967a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1836b6995c4fbccee7b81d614f8ea41') in 0.013716 seconds
+  Import took 0.015483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/Sprites/sprite_slime.png
+  artifactKey: Guid(b46764be2dbade7449de41b8caf321fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/sprite_slime.png using Guid(b46764be2dbade7449de41b8caf321fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d8f2727adaded179bb27e72f3b5467') in 0.009284 seconds
+  Import took 0.010835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Resources/Sprites/sprite_wind_fairy.png
+  artifactKey: Guid(9be594aca4aceac47a7031953af4eb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/sprite_wind_fairy.png using Guid(9be594aca4aceac47a7031953af4eb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8da2099184d4f0b62d7746dd2384ab') in 0.010620 seconds
+  Import took 0.012199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/Sprites/sprite_golem.png
+  artifactKey: Guid(ebd879f748adfbe419024b6611e57b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/sprite_golem.png using Guid(ebd879f748adfbe419024b6611e57b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad3ecf770b09e2511bba4d61fdf14b8') in 0.010063 seconds
+  Import took 0.011549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Resources/Sprites/Square.png
+  artifactKey: Guid(80435a2cc5571d6429b8f8fee0216b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Square.png using Guid(80435a2cc5571d6429b8f8fee0216b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c163a46724fac489b69a3c256537d6') in 0.008168 seconds
+  Import took 0.009598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.086531 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_bullet_0.png
+  artifactKey: Guid(7b803cd54fdbe4f44ad2a2cb728fb807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_bullet_0.png using Guid(7b803cd54fdbe4f44ad2a2cb728fb807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c884b35d9d0452c03d8c91da8e025704') in 0.017688 seconds
+  Import took 0.021101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_barrel_0.png
+  artifactKey: Guid(9fbcbac91bcc40c4baa61b98fa54759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_barrel_0.png using Guid(9fbcbac91bcc40c4baa61b98fa54759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4499be440cfe4e78125d23d2640f02') in 0.013518 seconds
+  Import took 0.016010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_base_0.png
+  artifactKey: Guid(29d9469b4abfa3e4d8d122da5640d1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_base_0.png using Guid(29d9469b4abfa3e4d8d122da5640d1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164daa8a9ebd9cc7c79f0845f6be95cb') in 0.011744 seconds
+  Import took 0.013967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_barrel_5.png
+  artifactKey: Guid(af0c57e393ebcc7448ed9d408454eee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_barrel_5.png using Guid(af0c57e393ebcc7448ed9d408454eee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8633455174f37cd06caa5a31ae1d92c') in 0.009803 seconds
+  Import took 0.011484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_base_1.png
+  artifactKey: Guid(3313bd833de831a439fa86a73c4c7936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_base_1.png using Guid(3313bd833de831a439fa86a73c4c7936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c660c33a8d022584bacff7a96fb3d2') in 0.009422 seconds
+  Import took 0.011025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_barrel_1.png
+  artifactKey: Guid(253b1f69ca190d5488cb6b86efe1f200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_barrel_1.png using Guid(253b1f69ca190d5488cb6b86efe1f200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145290cfcbee6803b0df8b28dc830d1d') in 0.008625 seconds
+  Import took 0.010237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_barrel_4.png
+  artifactKey: Guid(a2c526687199e434db41ac207fac867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_barrel_4.png using Guid(a2c526687199e434db41ac207fac867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f7aa042d403a80166f199dc7aa1ed1') in 0.008282 seconds
+  Import took 0.009715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_barrel_6.png
+  artifactKey: Guid(df203f44eee46a2498de27be33ca2792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_barrel_6.png using Guid(df203f44eee46a2498de27be33ca2792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e6f22f5b1cd78353d777bfaef17c31') in 0.008893 seconds
+  Import took 0.010786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_barrel_3.png
+  artifactKey: Guid(c37dd6d03ab981643a5ef237346aed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_barrel_3.png using Guid(c37dd6d03ab981643a5ef237346aed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fed071f016a861a44714f669b4129d9') in 0.008475 seconds
+  Import took 0.010075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_bullet_1.png
+  artifactKey: Guid(513deb8393e084f4cb14c3d20b137e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_bullet_1.png using Guid(513deb8393e084f4cb14c3d20b137e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fe289b2e9d27b217e459f03db0cf53') in 0.011060 seconds
+  Import took 0.012821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_barrel_2.png
+  artifactKey: Guid(05e81c937fd763142a1613c059794999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_barrel_2.png using Guid(05e81c937fd763142a1613c059794999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f75d21a1ef17ac56d2712bd56bf25a2') in 0.008679 seconds
+  Import took 0.010215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Resources/Sprites/Tower/sprite_tower_base_2.png
+  artifactKey: Guid(631e8d4b794d32644bb0c6f4f17ab93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Tower/sprite_tower_base_2.png using Guid(631e8d4b794d32644bb0c6f4f17ab93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1ae3214f73cb1cb11fc65d6aef054f') in 0.007975 seconds
+  Import took 0.009344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.196298 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/QuicksheetGData.asmdef
+  artifactKey: Guid(472b6c54bf81b7b43aa9157ad573922d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/QuicksheetGData.asmdef using Guid(472b6c54bf81b7b43aa9157ad573922d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07afe107fa6d1c21df6deb3dd85162fe') in 0.003635 seconds
+  Import took 0.007035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.183584 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Client.dll
+  artifactKey: Guid(9e07e302a71024871aef513c20486061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Client.dll using Guid(9e07e302a71024871aef513c20486061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd625ffceb9078cecdaf19f53d1bec1c5') in 0.559535 seconds
+  Import took 0.561488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.AccessControl.DLL
+  artifactKey: Guid(a6375ec0bd45945f8b425f1ff43aa105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.AccessControl.DLL using Guid(a6375ec0bd45945f8b425f1ff43aa105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efd4e606cdf0539c923b3d218b9fd51') in 0.508907 seconds
+  Import took 0.510413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.762462 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Documents.dll
+  artifactKey: Guid(ea99ca98bd1f242849f82aeee66aa394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Documents.dll using Guid(ea99ca98bd1f242849f82aeee66aa394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a87e9e28a4e6e82d9506a2b9964b10') in 0.004089 seconds
+  Import took 0.006995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.431928 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Extensions.dll
+  artifactKey: Guid(78dedc0b13a4b4a98ad1bc608a9a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Extensions.dll using Guid(78dedc0b13a4b4a98ad1bc608a9a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461235d07bd7aefcf0509dda9a0eacfe') in 0.003111 seconds
+  Import took 0.005930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.639973 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google/Newtonsoft.Json.dll
+  artifactKey: Guid(b5cfb11ed931d4f0fb2c43160294c00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google/Newtonsoft.Json.dll using Guid(b5cfb11ed931d4f0fb2c43160294c00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df0283444aa586f6b25e40bf702d3ae') in 0.003217 seconds
+  Import took 0.005844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.853660 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google/Newtonsoft.Json.pdb
+  artifactKey: Guid(69778e528156542b1955da2bc75b8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google/Newtonsoft.Json.pdb using Guid(69778e528156542b1955da2bc75b8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f63f6ea9397f2a02d202bc8f03845ab') in 0.106532 seconds
+  Import took 0.108923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.427430 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Spreadsheets.dll
+  artifactKey: Guid(155ff2b535fea46f0b32eb181ca13e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Spreadsheets.dll using Guid(155ff2b535fea46f0b32eb181ca13e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b729cee8319485a17474f2da31351a') in 0.001167 seconds
+  Import took 0.003258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Spreadsheets.dll
+  artifactKey: Guid(155ff2b535fea46f0b32eb181ca13e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/Google/Google.GData.Spreadsheets.dll using Guid(155ff2b535fea46f0b32eb181ca13e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b729cee8319485a17474f2da31351a') in 0.000952 seconds
+  Import took 0.002697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.023881 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/GDataDB/GDataDB
+  artifactKey: Guid(d0faf12c4105ada44bbb854b75c4afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/GDataDB/GDataDB using Guid(d0faf12c4105ada44bbb854b75c4afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6c2e8c1769ad2ebe04c800d49ff932') in 0.001291 seconds
+  Import took 0.005164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.565442 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/GDataDB/GDataDB.Linq
+  artifactKey: Guid(1a3c4afa7ccf34c489fa94b4fb6713ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/GDataDB/GDataDB.Linq using Guid(1a3c4afa7ccf34c489fa94b4fb6713ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d917a27ecee30b89078ec61bb11c2a') in 0.001190 seconds
+  Import took 0.004069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Packages/com.knz.ugson/GDataPlugin/Editor/GDataDB/GDataDB.Linq
+  artifactKey: Guid(1a3c4afa7ccf34c489fa94b4fb6713ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/GDataPlugin/Editor/GDataDB/GDataDB.Linq using Guid(1a3c4afa7ccf34c489fa94b4fb6713ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d917a27ecee30b89078ec61bb11c2a') in 0.000877 seconds
+  Import took 0.002982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.891834 seconds.
+  path: Packages/com.knz.ugson/Editor/GUIHelper.cs
+  artifactKey: Guid(504b93fdbd135884eb5d87a4bb9d2e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Editor/GUIHelper.cs using Guid(504b93fdbd135884eb5d87a4bb9d2e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a148d8afa3e3dd11402fa9a0f4ca316b') in 0.001544 seconds
+  Import took 0.004609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004812 seconds.
+  path: Packages/com.knz.ugson/Editor/GUIHelper.cs
+  artifactKey: Guid(504b93fdbd135884eb5d87a4bb9d2e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Editor/GUIHelper.cs using Guid(504b93fdbd135884eb5d87a4bb9d2e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a148d8afa3e3dd11402fa9a0f4ca316b') in 0.001291 seconds
+  Import took 0.003750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.720676 seconds.
+  path: Packages/com.knz.ugson/Editor/CustomAssetUtility.cs
+  artifactKey: Guid(197163b50bd708a45b2fe8b77572299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Editor/CustomAssetUtility.cs using Guid(197163b50bd708a45b2fe8b77572299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826678eb13e3efa60449e40dd0d50033') in 0.001520 seconds
+  Import took 0.004490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001030 seconds.
+  path: Packages/com.knz.ugson/Editor/CustomAssetUtility.cs
+  artifactKey: Guid(197163b50bd708a45b2fe8b77572299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Editor/CustomAssetUtility.cs using Guid(197163b50bd708a45b2fe8b77572299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826678eb13e3efa60449e40dd0d50033') in 0.001259 seconds
+  Import took 0.003641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.528925 seconds.
+  path: Packages/com.knz.ugson/Editor/Resources
+  artifactKey: Guid(8ae03436deb51cd4a8cf8d9015b1867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Editor/Resources using Guid(8ae03436deb51cd4a8cf8d9015b1867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02f7cb228e89b378d026d15589ffc8c') in 0.002171 seconds
+  Import took 0.004726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278894 seconds.
+  path: Packages/com.knz.ugson/Editor/Resources/brown.png
+  artifactKey: Guid(81a28a6c67c9bde4fa82f00cfda8c4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Editor/Resources/brown.png using Guid(81a28a6c67c9bde4fa82f00cfda8c4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5a4a91171c16add6fce7c583a3ed35') in 0.007533 seconds
+  Import took 0.010739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Packages/com.knz.ugson/Editor/Resources/lightSkinBox.png
+  artifactKey: Guid(a222f7263bb0e43538e362c4513a5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.knz.ugson/Editor/Resources/lightSkinBox.png using Guid(a222f7263bb0e43538e362c4513a5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cf1635e26f39f2972fe52e654288b1') in 0.005904 seconds
+  Import took 0.008210 seconds .
+
