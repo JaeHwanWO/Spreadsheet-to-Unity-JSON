@@ -39,7 +39,7 @@ namespace UnityQuickSheet
         /// <summary>
         /// A menu item which create a 'GoogleMachine' asset file.
         /// </summary>
-        [MenuItem("Assets/Create/QuickSheet/Tools/Google")]
+        [MenuItem("Assets/Create/UGSON/Tools/Google")]
         public static void CreateGoogleMachineAsset()
         {
             GoogleMachine inst = ScriptableObject.CreateInstance<GoogleMachine>();

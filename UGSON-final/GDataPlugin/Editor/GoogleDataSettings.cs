@@ -16,7 +16,7 @@ namespace UnityQuickSheet
     /// <summary>
     /// A class manages google account setting.
     /// </summary>
-    [CreateAssetMenu(menuName = "QuickSheet/Setting/GoogleData Setting")]
+    [CreateAssetMenu(menuName = "UGSON/Setting/GoogleData Setting")]
     public class GoogleDataSettings : SingletonScriptableObject<GoogleDataSettings>
     {
         // A flag which indicates use local installed oauth2 json file for authentication or not.
@@ -72,7 +72,7 @@ namespace UnityQuickSheet
         /// <summary>
         /// Select currently exist account setting asset file.
         /// </summary>
-        [MenuItem("Edit/QuickSheet/Select Google Data Setting")]
+        [MenuItem("Edit/UGSON/Select Google Data Setting")]
         public static void Edit()
         {
             Selection.activeObject = Instance;
