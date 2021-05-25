@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcda13c00cae4f4087d84a149a1c70b, type: 3}
+  m_Name: GoogleSetting
+  m_EditorClassIdentifier: 
+  TemplatePath: UGSON/Templates
+  RuntimePath: UGSON/Runtime/
+  EditorPath: UGSON/Editor/
+  OAuth2Data:
+    client_id: 452159874928-0u4ivvj06qpmj16di5n9hiepaqcj7u0p.apps.googleusercontent.com
+    auth_uri: 
+    token_uri: 
+    auth_provider_x509_cert_url: 
+    client_secret: t41JDsaqtUsQR_EYHfYEQZX3
+    redirect_uris: []
+  _AccessCode: 4/1AY0e-g4jFiklLKcqeayMqCzt9ilourktr18zV5fxMD6aGC4aUyYLsrw_ces
+  _RefreshToken: 1//0eRuyWvPLBKFvCgYIARAAGA4SNwF-L9IrsNtL1z_MbuSLDLiYT_z84wnpKAWJbbAQhdAXv7X6Tl7KwyXzqd0lCLYLmrHf-6Q5ySo
+  _AccessToken: ya29.a0AfH6SMBv54tlhOsTYsZDryTg3ghSBPxC-dOuguIO7irFoWOxfHRy-MiQaHtSR6aL_kPURT2aldDhr7Q-DrNIMHO2sYWxFn7-xJOL-VHy5hlKIZrLsGq4b-9QiQe0Etze1G4UX-AuQbJFrSxIxWAOOwsJbeqO
