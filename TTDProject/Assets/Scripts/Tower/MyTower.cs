@@ -31,26 +31,23 @@ public class MyTower : MonoBehaviour
     private float _atkDelay;
     private int _atkCount;
 
-    private int _atkDamage;
-
-    private BulletType _bulletType;
+    BulletSheetData _refBullet;
 
     private IEnumerator uiRoutine;
 
-    public void SetData(TowerData data) {
-        cost = data.cost;
+    public void SetData(TowerSheetData data) {
+        cost = data.Cost;
 
-        _spriteBase.sprite = ResourceLoader.Instance.LoadSprite_TowerBase(data.sprite_Base);
-        _spriteBarrel.sprite = ResourceLoader.Instance.LoadSprite_TowerBarrel(data.sprite_Barrel);
+        _spriteBase.sprite = ResourceLoader.Instance.LoadSprite_TowerBase(data.Spritebase);
+        _spriteBarrel.sprite = ResourceLoader.Instance.LoadSprite_TowerBarrel(data.Spritebarrel);
 
-        ((CircleCollider2D)attackArea).radius = data.atkRange;
-        _atkDelay = data.atkDelay;
-        _atkCount = data.atkCount;
+        ((CircleCollider2D)attackArea).radius = data.Atkrange;
+        _atkDelay = data.Atkdelay;
+        _atkCount = data.Atkcount;
 
-        _bulltetPos.position = transform.position + new Vector3(data.bulletPos, 0f, 0f);
+        _bulltetPos.position = transform.position + new Vector3(data.Bulletpos, 0f, 0f);
 
-        _bulletType = data.bulletType;
-        _atkDamage = data.bulletDamage;
+        _refBullet = SheetDataManager.Instance.bulletDataList[(int)data.BULLET];
     }
 
     public void Attack() {
@@ -77,25 +74,26 @@ public class MyTower : MonoBehaviour
         }
 
         IEnumerator Shoot(Monster _target) {
-            GameObject newBullet = ResourceLoader.Instance.Load_Bullet(_bulletType);
+            GameObject newBullet = ResourceLoader.Instance.Load_Bullet(_refBullet.BULLETTYPE);
             Vector3 firstPos = transform.position;
             newBullet.transform.position = firstPos;
             newBullet.SetActive(true);
 
+            float duration = 0.5f / _refBullet.Speed;
             float deltaTime = 0f;
-            while (deltaTime < 0.5f) {
+            while (deltaTime < duration) {
                 yield return null;
                 deltaTime += Time.deltaTime;
                 if (_target == null) break;
-                newBullet.transform.position = Vector3.Lerp(firstPos, _target.transform.position, deltaTime / 0.5f);
+                newBullet.transform.position = Vector3.Lerp(firstPos, _target.transform.position, deltaTime / duration);
                 LookAt(newBullet.transform, _target);
             }
 
             if (_target != null) {
                 newBullet.transform.position = _target.transform.position;
-                switch (_bulletType) {
-                    case BulletType.Normal: _target.GetDamage(_atkDamage); break;
-                    case BulletType.Dot: _target.GetDamageByTime(_atkDamage, 2f); break;
+                switch (_refBullet.BULLETTYPE) {
+                    case BulletType.Normal: _target.GetDamage(_refBullet.Damage); break;
+                    case BulletType.Dot: _target.GetDamageByTime(_refBullet.Damage, 2f); break;
                 }
             }
             Destroy(newBullet);

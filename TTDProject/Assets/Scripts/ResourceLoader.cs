@@ -20,7 +20,7 @@ public class ResourceLoader : MonoBehaviour {
         return Resources.Load<Sprite>(string.Format("Sprites/Tower/sprite_tower_barrel_{0}", index.ToString()));
     }
 
-    public MyTower Load_Tower(TowerData data) {
+    public MyTower Load_Tower(TowerSheetData data) {
         MyTower result = Instantiate(Resources.Load("Prefabs/TowerPrefab") as GameObject).GetComponent<MyTower>();
         result.SetData(data);
         return result;

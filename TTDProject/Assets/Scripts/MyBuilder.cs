@@ -44,9 +44,9 @@ public class MyBuilder : MonoBehaviour
         }
     }
 
-    public void Build(TowerData data) {
+    public void Build(TowerSheetData data) {
         if (buildRoutine == null) {
-            if (TimeManager.Instance.time >= data.cost) {
+            if (TimeManager.Instance.time >= data.Cost) {
                 buildRoutine = BuildRoutine(data);
                 StartCoroutine(buildRoutine);
             }
@@ -70,7 +70,7 @@ public class MyBuilder : MonoBehaviour
         buildRoutine = null;
     }
 
-    private IEnumerator BuildRoutine(TowerData data) {
+    private IEnumerator BuildRoutine(TowerSheetData data) {
         WaitUntil uiCheck = new WaitUntil(() => EventSystem.current.IsPointerOverGameObject() == false);
         yield return uiCheck;
         MyTower newTower = ResourceLoader.Instance.Load_Tower(data);

@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\MyMovePoint.cs" />
     <Compile Include="Assets\Scripts\MySpawner.cs" />
     <Compile Include="Assets\Scripts\ResourceLoader.cs" />
+    <Compile Include="Assets\Scripts\SheetDataManager.cs" />
     <Compile Include="Assets\Scripts\TimeManager.cs" />
     <Compile Include="Assets\Scripts\TimeStone.cs" />
     <Compile Include="Assets\Scripts\Tower\MyTower.cs" />

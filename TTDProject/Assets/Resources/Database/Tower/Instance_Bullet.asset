@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec5a210e7545c943ae2f48a7dd6669c, type: 3}
+  m_Name: Instance_Bullet
+  m_EditorClassIdentifier: 
+  SheetName: TowerDB
+  WorksheetName: BulletSheet
+  dataArray:
+  - id: 0
+    bulletname: NormalBullet
+    description: "\uD3C9\uBC94\uD55C \uD0C4\uD658\uC785\uB2C8\uB2E4."
+    damage: 20
+    bullettype: 0
+    speed: 1
+    sprite: 0
+  - id: 1
+    bulletname: PoisonBullet
+    description: "\uB3C5 \uD0C4\uD658\uC785\uB2C8\uB2E4. \uB370\uBBF8\uC9C0\uAC00
+      \uB3C4\uD2B8 \uB370\uBBF8\uC9C0\uB85C \uB4E4\uC5B4\uAC11\uB2C8\uB2E4."
+    damage: 30
+    bullettype: 1
+    speed: 1
+    sprite: 1
+  - id: 2
+    bulletname: SnipingBullet
+    description: "\uC800\uACA9 \uD0C4\uD658\uC785\uB2C8\uB2E4. \uB370\uBBF8\uC9C0\uAC00
+      \uB192\uACE0, \uC18D\uB3C4\uAC00 \uBE60\uB985\uB2C8\uB2E4."
+    damage: 50
+    bullettype: 0
+    speed: 2
+    sprite: 0

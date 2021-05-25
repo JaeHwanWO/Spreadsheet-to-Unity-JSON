@@ -8,15 +8,15 @@ public class UI_TowerShop : MonoBehaviour {
 
     private void Start() {
         int i = 0;
-        List<TowerData> towerDatas = TowerManager.Instance.towerDatas;
-        foreach (TowerData data in towerDatas) {
+        var towerDatas = SheetDataManager.Instance.towerDataList;
+        foreach (TowerSheetData data in towerDatas) {
             _towers[i].gameObject.SetActive(true);
             _towers[i].Init(data, OnTowerButtonClicked);
             i++;
         }
     }
 
-    private void OnTowerButtonClicked(TowerData data) {
+    private void OnTowerButtonClicked(TowerSheetData data) {
         MyBuilder.Instance.Build(data);
     }
 }
