@@ -3,6 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Bullet {
+    NormalBullet = 0,
+    PoisonBullet = 1,
+    SnipingBullet = 2,
+}
+
 public class MyTower : MonoBehaviour
 {
     [Header("- UI")]

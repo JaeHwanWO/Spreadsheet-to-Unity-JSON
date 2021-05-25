@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbcda13c00cae4f4087d84a149a1c70b, type: 3}
   m_Name: GoogleSetting
   m_EditorClassIdentifier: 
-  TemplatePath: UGSON/Templates
+  TemplatePath: UGSON/Templates/
   RuntimePath: UGSON/Runtime/
   EditorPath: UGSON/Editor/
   OAuth2Data:
@@ -22,6 +22,6 @@ MonoBehaviour:
     auth_provider_x509_cert_url: 
     client_secret: t41JDsaqtUsQR_EYHfYEQZX3
     redirect_uris: []
-  _AccessCode: 4/1AY0e-g4jFiklLKcqeayMqCzt9ilourktr18zV5fxMD6aGC4aUyYLsrw_ces
-  _RefreshToken: 1//0eRuyWvPLBKFvCgYIARAAGA4SNwF-L9IrsNtL1z_MbuSLDLiYT_z84wnpKAWJbbAQhdAXv7X6Tl7KwyXzqd0lCLYLmrHf-6Q5ySo
-  _AccessToken: ya29.a0AfH6SMBv54tlhOsTYsZDryTg3ghSBPxC-dOuguIO7irFoWOxfHRy-MiQaHtSR6aL_kPURT2aldDhr7Q-DrNIMHO2sYWxFn7-xJOL-VHy5hlKIZrLsGq4b-9QiQe0Etze1G4UX-AuQbJFrSxIxWAOOwsJbeqO
+  _AccessCode: 4/1AY0e-g43Q8Ea3OtIrcrh2sf5UEcWZJDMeiBoub7XqHdT2MZeNLFSrj1ZigY
+  _RefreshToken: 1//0erESsjBmhbdyCgYIARAAGA4SNwF-L9Ir1tG3_tL-1ZBgglxbtu1G53_NMEokoljuwsbHCCG_YM0zkGdQBOb4-z_QsQt3as1Nt6M
+  _AccessToken: ya29.a0AfH6SMC6_KFx1V0XCiC2qdicsvKjD3HlkUqLOctkJ6mEl1n5tGJsfqLXEfwor2neZzpUnEpU10hs01uFBcIpdOuC3p4XBH2b-z_Mr_8QoBLrxRkogGp8nLizla8b2nAxLnnzoSWjXWXCg07ctx76KrbVAbw5

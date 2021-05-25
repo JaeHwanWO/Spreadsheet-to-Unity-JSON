@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Editor\DatabaseBuilder.cs" />
+    <Compile Include="Assets\UGSON\Editor\BulletSheetAssetCreator.cs" />
+    <Compile Include="Assets\UGSON\Editor\BulletSheetEditor.cs" />
     <Compile Include="Assets\UGSON\Editor\TowerSheetAssetCreator.cs" />
     <Compile Include="Assets\UGSON\Editor\TowerSheetEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">

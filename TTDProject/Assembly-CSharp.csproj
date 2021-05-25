@@ -83,6 +83,8 @@
     <Compile Include="Assets\Scripts\UI\UI_TowerShop.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\Util\CSVParser.cs" />
+    <Compile Include="Assets\UGSON\Runtime\BulletSheet.cs" />
+    <Compile Include="Assets\UGSON\Runtime\BulletSheetData.cs" />
     <Compile Include="Assets\UGSON\Runtime\TowerSheet.cs" />
     <Compile Include="Assets\UGSON\Runtime\TowerSheetData.cs" />
     <None Include="Assets\UGSON\Templates\ScriptableObjectEditorClass.txt" />
