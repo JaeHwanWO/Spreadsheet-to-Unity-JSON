@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D3BE2DB9-0FA7-F186-7ABD-55AFEF767AB7}</ProjectGuid>
+    <ProjectGuid>{C132594A-928C-86DF-54BB-28617E4DB357}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -75,6 +75,10 @@
     <Compile Include="Assets\Scripts\MyMovePoint.cs" />
     <Compile Include="Assets\Scripts\MySpawner.cs" />
     <Compile Include="Assets\Scripts\ResourceLoader.cs" />
+    <Compile Include="Assets\Scripts\Runtime\any.cs" />
+    <Compile Include="Assets\Scripts\Runtime\anyData.cs" />
+    <Compile Include="Assets\Scripts\Runtime\yejin.cs" />
+    <Compile Include="Assets\Scripts\Runtime\yejinData.cs" />
     <Compile Include="Assets\Scripts\TimeManager.cs" />
     <Compile Include="Assets\Scripts\TimeStone.cs" />
     <Compile Include="Assets\Scripts\Tower\MyTower.cs" />
@@ -84,37 +88,37 @@
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\Util\CSVParser.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -647,6 +651,20 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="QuicksheetGData.csproj">
+      <Project>{3FFC36C1-2533-9DF4-3D12-077936094A03}</Project>
+      <Name>QuicksheetGData</Name>
+    </ProjectReference>
+    <ProjectReference Include="Quicksheet.csproj">
+      <Project>{BD012983-718D-7232-4025-E3D45B9C9565}</Project>
+      <Name>Quicksheet</Name>
+    </ProjectReference>
+    <ProjectReference Include="QuicksheetEditor.csproj">
+      <Project>{9DADC78C-EDAC-28CC-7FFD-9451031E337C}</Project>
+      <Name>QuicksheetEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

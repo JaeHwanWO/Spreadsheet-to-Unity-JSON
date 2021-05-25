@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D696C893-9461-C443-CE74-776FB65E3150}</ProjectGuid>
+    <ProjectGuid>{8885B5F4-38B4-2FD1-4555-222EB8D19738}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -63,44 +63,48 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Editor\DatabaseBuilder.cs" />
+    <Compile Include="Assets\Scripts\Editor\anyAssetCreator.cs" />
+    <Compile Include="Assets\Scripts\Editor\anyEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\yejinAssetCreator.cs" />
+    <Compile Include="Assets\Scripts\Editor\yejinEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -294,8 +298,26 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Google.GData.AccessControl">
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/UGSON-final/GDataPlugin/Editor/Google/Google.GData.AccessControl.DLL</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Client">
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/UGSON-final/GDataPlugin/Editor/Google/Google.GData.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Documents">
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/UGSON-final/GDataPlugin/Editor/Google/Google.GData.Documents.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Extensions">
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/UGSON-final/GDataPlugin/Editor/Google/Google.GData.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Spreadsheets">
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/UGSON-final/GDataPlugin/Editor/Google/Google.GData.Spreadsheets.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/UGSON-final/GDataPlugin/Editor/Google/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/M/Documents/TTDProject/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/M/Documents/Spreadsheet-to-Unity-JSON/demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -654,8 +676,20 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D3BE2DB9-0FA7-F186-7ABD-55AFEF767AB7}</Project>
+      <Project>{C132594A-928C-86DF-54BB-28617E4DB357}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="QuicksheetGData.csproj">
+      <Project>{3FFC36C1-2533-9DF4-3D12-077936094A03}</Project>
+      <Name>QuicksheetGData</Name>
+    </ProjectReference>
+    <ProjectReference Include="Quicksheet.csproj">
+      <Project>{BD012983-718D-7232-4025-E3D45B9C9565}</Project>
+      <Name>Quicksheet</Name>
+    </ProjectReference>
+    <ProjectReference Include="QuicksheetEditor.csproj">
+      <Project>{9DADC78C-EDAC-28CC-7FFD-9451031E337C}</Project>
+      <Name>QuicksheetEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
