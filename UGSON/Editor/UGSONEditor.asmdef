@@ -1,7 +1,6 @@
 {
-    "name": "QuicksheetGData",
+    "name": "UGSONEditor",
     "references": [
-        "GUID:4155262d2078e464c8cd45a2257ca000",
         "GUID:1839e5d7bfb30a0469f1abce1b8cd268"
     ],
     "includePlatforms": [],

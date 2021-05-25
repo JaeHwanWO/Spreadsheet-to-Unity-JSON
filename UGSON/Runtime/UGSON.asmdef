@@ -1,8 +1,6 @@
 {
-    "name": "QuicksheetEditor",
-    "references": [
-        "GUID:1839e5d7bfb30a0469f1abce1b8cd268"
-    ],
+    "name": "UGSON",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
