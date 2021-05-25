@@ -69,7 +69,6 @@
     <Compile Include="Assets\Scripts\Data\TowerData.cs" />
     <Compile Include="Assets\Scripts\Data\WaveBuilder.cs" />
     <Compile Include="Assets\Scripts\Monster.cs" />
-    <Compile Include="Assets\Scripts\MyBuilder.cs" />
     <Compile Include="Assets\Scripts\MyCameraCtrl.cs" />
     <Compile Include="Assets\Scripts\MyGameStarter.cs" />
     <Compile Include="Assets\Scripts\MyMovePoint.cs" />
@@ -78,7 +77,6 @@
     <Compile Include="Assets\Scripts\SheetDataManager.cs" />
     <Compile Include="Assets\Scripts\TimeManager.cs" />
     <Compile Include="Assets\Scripts\TimeStone.cs" />
-    <Compile Include="Assets\Scripts\Tower\MyTower.cs" />
     <Compile Include="Assets\Scripts\TowerManager.cs" />
     <Compile Include="Assets\Scripts\UI\SubUI_Tower.cs" />
     <Compile Include="Assets\Scripts\UI\UI_TowerShop.cs" />

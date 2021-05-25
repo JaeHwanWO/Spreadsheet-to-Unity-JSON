@@ -3389,8 +3389,8 @@ GameObject:
   - component: {fileID: 708521366}
   - component: {fileID: 708521365}
   - component: {fileID: 708521367}
-  - component: {fileID: 708521368}
   - component: {fileID: 708521369}
+  - component: {fileID: 708521368}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -3453,14 +3453,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 708521364}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58a68e2422539d04da34b8400f779140, type: 3}
+  m_Script: {fileID: 11500000, guid: 32964e74f48f28b4fac6f285678e17f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _towerDatas:
-  - {fileID: 11400000, guid: ebd54351303a27c40b2dccdbf7256f97, type: 2}
-  - {fileID: 11400000, guid: 0ab92c4c1bf6735439d19f71958d0596, type: 2}
-  - {fileID: 11400000, guid: 90236d91a3f70404cb02ff8fa9d7d989, type: 2}
-  - {fileID: 11400000, guid: 909ae8622777e7d4a89454f6ce937e4a, type: 2}
+  _towerDataInstance: {fileID: 11400000, guid: b54e964d473bc7844be200639934aa38, type: 2}
+  _bulletDataInstance: {fileID: 11400000, guid: f3898354e26648745b613d5151b0426d,
+    type: 2}
 --- !u!114 &708521369
 MonoBehaviour:
   m_ObjectHideFlags: 0
