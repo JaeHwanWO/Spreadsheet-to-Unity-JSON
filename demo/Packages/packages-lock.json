@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.knz.ugson": {
+      "version": "file:/Users/nexlice/Spreadsheet-to-Unity-JSON/New Unity Project/Packages/QuickSheet",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
