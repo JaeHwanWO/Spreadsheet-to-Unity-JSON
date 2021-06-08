@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: WaveDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::WaveDatabase
+  _waveDatas:
+  - {fileID: 11400000, guid: 3668bf80c665f3b42a7a109d88b87c91, type: 2}
+  - {fileID: 11400000, guid: daa1403fefc2f4046809ef013f680918, type: 2}
+  - {fileID: 11400000, guid: f072b538bb4027442b28cf2b6a0c9bc8, type: 2}
+  - {fileID: 11400000, guid: 0faa9c1d9aa256a4a946fca9c5533f19, type: 2}
+  - {fileID: 11400000, guid: b053b3d2d0cffc74e86d7f88cc28b9f9, type: 2}
+  _maxWave: 4
