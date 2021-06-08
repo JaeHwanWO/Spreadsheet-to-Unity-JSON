@@ -56,6 +56,13 @@ We used these major frameworks in our project.
 
 <!-- GETTING STARTED -->
 ## Getting Started
+### Video Tutorial
+* Getting UGSON started : Get your own OAuth Client ID
+[![Getting UGSON started : Get your own OAuth Client ID](https://user-images.githubusercontent.com/80820556/121170001-9b851200-c88f-11eb-93ab-57c9e0f67da8.png)](https://www.youtube.com/watch?v=ATm5upVuYB4)
+
+* Getting UGSON Started: Apply to your Unity Project
+[![Getting UGSON Started: Apply to your Unity Project](https://user-images.githubusercontent.com/80820556/121171816-f4ee4080-c891-11eb-93f2-433cd83c09c9.png)](https://www.youtube.com/watch?v=IdAKoaTnWhI)
+
 ### Get OAuth Client ID 
 Do following steps to get your OAuth Client ID.
 
@@ -78,14 +85,6 @@ also json file which contains 'client_ID' and 'client_secret'.
 
 1. Install via UPM - most recommended
 2. Download our project in zip and tap 'Add package from disk'
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -128,11 +127,7 @@ You get the asset of spread sheet in your own path.
 <!-- USAGE EXAMPLES -->
 ## Demo
 
-We have an awesome game demo that 
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+We have an awesome game demo that can import our UGSON library. Follow [video](https://www.youtube.com/watch?v=ATm5upVuYB4) to do so.
 
 <!-- ROADMAP -->
 ## Roadmap
