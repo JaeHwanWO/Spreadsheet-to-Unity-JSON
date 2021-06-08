@@ -75,8 +75,6 @@ This is an example of how to list things you need to use the software and how to
 1. We need Unity at minimum version of 2019.3.5.f1.
 
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Demo
 
@@ -89,7 +87,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/JaeHwanWO/Spreadsheet-to-Unity-JSON/issues) for a list of proposed features (and known issues).
 
 
 
@@ -108,28 +106,21 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- LICENSE -->
 ## License
-
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
+<!-- CODING CONVENTION -->
+## Coding Convention
+We use visual studio and '[Format document on Save](https://marketplace.visualstudio.com/items?itemName=mynkow.FormatdocumentonSave)' extension. 
+Join our [discord](https://discord.gg/qjepstaa) channel 'coding-convention' to discuss.
 
 <!-- CONTACT -->
 ## Contact
-Join our [discord](https://discord.gg/qjepstaa). Let us talk about development!
+Join our [discord](https://discord.gg/qjepstaa). We have every step of our development talked in our discord channel. Let us talk about future development path!
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
+## References
+* [Unity Serialization](http://forum.unity3d.com/threads/155352-Serialization-Best-Practices-Megapost) on Unity's forum for details of serialization mechanism.
+* [GDataDB](https://github.com/mausch/GDataDB) is used to retrieve data from Google Spreadsheet. 
+* All "*.dll" files of Google Data SDK are available at Google Data API SDK
 
