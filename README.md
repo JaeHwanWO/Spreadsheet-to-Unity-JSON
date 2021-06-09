@@ -130,8 +130,27 @@ You get the asset of spread sheet in your own path.
 
 <!-- USAGE EXAMPLES -->
 ## Demo
+Now let’s see our awesome assets gettin updated!
+<img width="1440" alt="applying_1" src="https://user-images.githubusercontent.com/80820556/121325054-40652500-c94c-11eb-8ff7-a3ab9c33f76a.png">
 
 We have an awesome game demo that can import our UGSON library. Follow [video](https://www.youtube.com/watch?v=ATm5upVuYB4) to do so.
+
+First get your spreadsheet. If you don’t have one, follow our first tutorial.
+<img width="1243" alt="applying_2" src="https://user-images.githubusercontent.com/80820556/121325302-73a7b400-c94c-11eb-87d6-beaf54d69bd9.png">
+
+First We’ll fix Google spreadsheet data. I'll show that Unity fetches asset datas.
+You can see bullets instances here.
+<img width="1243" alt="u can c bullets here" src="https://user-images.githubusercontent.com/80820556/121325330-7904fe80-c94c-11eb-921d-0b2403773767.png">
+
+change the number 0 tower's "BulletType" from "Normal" to "Poison".
+<img width="1243" alt="changed yet" src="https://user-images.githubusercontent.com/80820556/121325597-b2d60500-c94c-11eb-9026-7d0bb2c8e714.png">
+
+<img width="1243" alt="changed" src="https://user-images.githubusercontent.com/80820556/121325608-b4073200-c94c-11eb-8892-4442b8656f22.png">
+
+And you can see the fetched asset as you click "Download".
+<img width="228" alt="changed applied" src="https://user-images.githubusercontent.com/80820556/121325624-b6698c00-c94c-11eb-97c2-483499ef3406.png">
+
+
 
 <!-- ROADMAP -->
 ## Roadmap
