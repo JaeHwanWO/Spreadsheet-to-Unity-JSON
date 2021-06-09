@@ -53,6 +53,7 @@ This project imports multi-sheet spreadsheet to Unity, using Unity's newest UPM-
 We used these major frameworks in our project. 
 * [GDataPlugin](https://getbootstrap.com)
 * [QuickSheet](https://jquery.com)
+* [Unity Package Manager](https://openupm.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -113,7 +114,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CODING CONVENTION -->
 ## Coding Convention
 We use visual studio and '[Format document on Save](https://marketplace.visualstudio.com/items?itemName=mynkow.FormatdocumentonSave)' extension. 
-Join our [discord](https://discord.gg/qjepstaa) channel 'coding-convention' to discuss.
+Join our [discord](https://discord.gg/qjepstaa) channel 'coding-convention' to suggest better coding convention for us.
 
 <!-- CONTACT -->
 ## Contact
